@@ -1,0 +1,13 @@
+@for $i from 1 through 59 {
+	$deg: 6.10deg;
+	.nr#{$i+1}{
+		transform:rotate($deg*$i);
+ 		-ms-transform:rotate($deg*$i); /* IE 9 */
+ 		-webkit-transform:rotate($deg*$i); /* Safari and Chrome */
+	}
+	.nr#{$i+1} h3{
+		transform:rotate(-$deg*$i);
+ 		-ms-transform:rotate(-$deg*$i); /* IE 9 */
+ 		-webkit-transform:rotate(-$deg*$i); /* Safari and Chrome */
+	}
+}

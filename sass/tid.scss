@@ -1,0 +1,145 @@
+@import "import1";
+
+body{
+     font-family: 'Oranienbaum', serif;
+}
+.container {
+ top: 0px;
+left: 47%;
+  width: 50px;
+ height: 50px;
+ position: absolute;
+ -webkit-perspective: 1000;
+ -moz-perspective: 1000;
+ -ms-perspective: 1000;
+ -o-perspective: 1000;
+ display: inline-block;
+ -webkit-transform-origin:50% 20rem;
+    -moz-transform-origin:50% 20rem;
+     -ms-transform-origin:50% 20rem;
+      -o-transform-origin:50% 20rem;
+         transform-origin:50% 20rem;
+}
+#result{
+z-index: 6;
+position: absolute;
+font-size: 170%;
+top: 58%;
+left: 39%;
+background-color: #18991D;
+color: white;
+}
+.amountMinutes{
+ font-size: 1rem;
+display: block;
+height: 1.3rem;
+z-index: 5;
+width: 7rem;
+position: absolute;
+top: 67%;
+left: 34%;
+  }
+  .submit{
+  font-size: 1.2rem;
+  display: block;
+  height: 1.8rem;
+  z-index: 5;
+  width: 7rem;
+  position: absolute;
+  top: 67%;
+  left: 51%;
+  color: white;
+background-color: #18991D;
+  }
+.clock{
+position: relative;
+border: 0.5px dashed white;
+border-radius: 50%;
+background-color: white;
+width: 50rem;
+height:50rem;
+display: inline-block;
+margin-top: 9%;
+margin-left: 30%;
+}
+.fonx-white-kopia{
+background: url(../image/fonx-white-kopia.png);
+position: absolute;
+z-index: 4;
+margin-top: 57%;
+margin-left: 23%;
+width: 108%;
+height: 10%;
+background-repeat: no-repeat;
+position: relative;
+background-size: 27rem 1.6rem;
+}
+.card {
+ width: 48px;
+height: 392px;
+ position: relative;
+ -webkit-transform-style: preserve-3d;
+ -webkit-transition: 0.5s;
+ -moz-transform-style: preserve-3d;
+ -moz-transition: 0.5s;
+ -ms-transform-style: preserve-3d;
+ -ms-transition: 0.5s;
+ -o-transform-style: preserve-3d;
+ -o-transition: 0.5s;
+}
+.container:hover .card {
+ -webkit-transform: rotateY(180deg);
+ -moz-transform: rotateY(180deg);
+ -ms-transform: rotateY(180deg);
+ -o-transform: rotateY(180deg);       
+}
+.face {
+ position: absolute;
+ -webkit-backface-visibility: hidden;
+ -moz-backface-visibility: hidden;
+ -ms-backface-visibility: hidden;
+ -o-backface-visibility: hidden;
+ top: 0;
+ left: 0;
+ width: 80%;
+ height: 80%;
+ color: white;
+ line-height: 50px;
+ text-align: center;
+}
+h3{
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+.front {
+ border: 1px dashed white;
+ border-radius: 50rem;
+ background-color: #18991D;
+ z-index: 1;
+}
+.container:hover .front {
+ z-index: 0;
+ width: 82px;
+height: 82px;
+}
+.container:hover .back {
+ z-index:2;
+width: 82px;
+height: 82px;
+}
+.back {
+  border: 1px dashed white;
+  border-radius: 50rem;
+ -webkit-transform: rotateY(180deg);
+ -moz-transform: rotateY(180deg);
+ -ms-transform: rotateY(180deg);
+ -o-transform: rotateY(180deg);
+ background: red;
+ margin-left: -13px;
+ margin-top: -4.2rem;
+}
+.container:hover .back h3{
+   font-size: 2rem;
+   margin-top: 0.7rem;
+
+}

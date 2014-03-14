@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <title>klocka</title>
+       <link rel='stylesheet' type='text/css' href='css/tid.css'/>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type='text/javascript' src='js/tid.js'></script>
+       <link href='http://fonts.googleapis.com/css?family=Oranienbaum' rel='stylesheet' type='text/css'>
+      <meta charset="UTF-8">
+  </head>
+
+    <body> 
+
+    
+     
+      <div class="clock">
+       <div class="fonx-white-kopia">
+      </div>
+      <p id="result"></p>
+<!--       <label for="minutes">Omvandla minuter till hundradelar</label>
+ --> <input class="amountMinutes" type="number" id="minutes" placeholder="Antal minuter" name="quantity" min="1"autofocus>
+     <input class="submit" id"submit" type="submit" value="Omvandla">
+ <!--  <p><h1>Lönesnurran</h1></p> -->
+
+<div class="container" id="nr1">
+  <div class="card">
+   <div class="face front"><h3>01</h3></div>
+   <div class="face back"><h3>0.02</h3></div>
+ </div>
+</div>
+
+<div class="container nr2">
+ <div class="card">
+   <div class="face front"><h3>02</h3></div>
+   <div class="face back"><h3>0.03</h3></div>
+ </div>
+</div>
+
+<div class="container nr3">
+ <div class="card">
+   <div class="face front"><h3>03</h3></div>
+   <div class="face back"><h3>0.05</h3></div>
+ </div>
+</div>
+
+<div class="container nr4">
+ <div class="card">
+   <div class="face front"><h3>04</h3></div>
+   <div class="face back"><h3>0.07</h3></div>
+ </div>
+</div>
+
+<div class="container nr5">
+ <div class="card anotherColor">
+   <div class="face front"><h3>05</h3></div>
+   <div class="face back"><h3>0.08</h3></div>
+ </div>
+</div>
+
+<div class="container nr6">
+ <div class="card">
+   <div class="face front"><h3>06</h3></div>
+   <div class="face back"><h3>0.10</h3></div>
+ </div>
+</div>
+
+<div class="container nr7">
+ <div class="card">
+   <div class="face front"><h3>07</h3></div>
+   <div class="face back"><h3>0.12</h3></div>
+ </div>
+</div>
+
+<div class="container nr8">
+ <div class="card">
+   <div class="face front"><h3>08</h3></div>
+   <div class="face back"><h3>0.13</h3></div>
+ </div>
+</div>
+
+<div class="container nr9">
+ <div class="card">
+   <div class="face front"><h3>09</h3></div>
+   <div class="face back"><h3>0.15</h3></div>
+ </div>
+</div>
+
+<div class="container nr10">
+ <div class="card">
+   <div class="face front"><h3>10</h3></div>
+   <div class="face back"><h3>0.17</h3></div>
+ </div>
+</div>
+
+<div class="container nr11">
+ <div class="card">
+   <div class="face front"><h3>11</h3></div>
+   <div class="face back"><h3>0.18</h3></div>
+ </div>
+</div>
+
+<div class="container nr12">
+ <div class="card">
+   <div class="face front"><h3>12</h3></div>
+   <div class="face back"><h3>0.20</h3></div>
+ </div>
+</div>
+
+<div class="container nr13">
+ <div class="card">
+   <div class="face front"><h3>13</h3></div>
+   <div class="face back"><h3>0.22</h3></div>
+ </div>
+</div>
+
+<div class="container nr14">
+ <div class="card">
+   <div class="face front"><h3>14</h3></div>
+   <div class="face back"><h3>0.23</h3></div>
+ </div>
+</div>
+
+<div class="container nr15">
+ <div class="card">
+   <div class="face front"><h3>15</h3></div>
+   <div class="face back"><h3>0.25</h3></div>
+ </div>
+</div>
+
+<div class="container nr16">
+ <div class="card">
+   <div class="face front"><h3>16</h3></div>
+   <div class="face back"><h3>0.27</h3></div>
+ </div>
+</div>
+
+<div class="container nr17">
+ <div class="card">
+   <div class="face front"><h3>17</h3></div>
+   <div class="face back"><h3>0.28</h3></div>
+ </div>
+</div>
+
+<div class="container nr18">
+ <div class="card">
+   <div class="face front"><h3>18</h3></div>
+   <div class="face back"><h3>0.30</h3></div>
+ </div>
+</div>
+
+<div class="container nr19">
+ <div class="card">
+   <div class="face front"><h3>19</h3></div>
+   <div class="face back"><h3>0.32</h3></div>
+ </div>
+</div>
+
+<div class="container nr20">
+ <div class="card">
+   <div class="face front"><h3>20</h3></div>
+   <div class="face back"><h3>0.33</h3></div>
+ </div>
+</div>
+
+<div class="container nr21">
+ <div class="card">
+   <div class="face front"><h3>21</h3></div>
+   <div class="face back"><h3>0.35</h3></div>
+ </div>
+</div>
+
+<div class="container nr22">
+ <div class="card">
+   <div class="face front"><h3>22</h3></div>
+   <div class="face back"><h3>0.37</h3></div>
+ </div>
+</div>
+
+<div class="container nr23">
+ <div class="card">
+   <div class="face front"><h3>23</h3></div>
+   <div class="face back"><h3>0.38</h3></div>
+ </div>
+</div>
+
+<div class="container nr24">
+ <div class="card">
+   <div class="face front"><h3>24</h3></div>
+   <div class="face back"><h3>0.40</h3></div>
+ </div>
+</div>
+
+<div class="container nr25">
+ <div class="card">
+   <div class="face front"><h3>25</h3></div>
+   <div class="face back"><h3>0.42</h3></div>
+ </div>
+</div>
+
+<div class="container nr26">
+ <div class="card">
+   <div class="face front"><h3>26</h3></div>
+   <div class="face back"><h3>0.43</h3></div>
+ </div>
+</div>
+
+<div class="container nr27">
+ <div class="card">
+   <div class="face front"><h3>27</h3></div>
+   <div class="face back"><h3>0.45</h3></div>
+ </div>
+</div>
+
+<div class="container nr28">
+ <div class="card">
+   <div class="face front"><h3>28</h3></div>
+   <div class="face back"><h3>0.47</h3></div>
+ </div>
+</div>
+
+<div class="container nr29">
+ <div class="card">
+   <div class="face front"><h3>29</h3></div>
+   <div class="face back"><h3>0.48</h3></div>
+ </div>
+</div>
+
+<div class="container nr30">
+ <div class="card">
+   <div class="face front"><h3> 30</h3></div>
+   <div class="face back"><h3>0.50</h3></div>
+ </div>
+</div>
+
+<div class="container nr31">
+ <div class="card">
+   <div class="face front"><h3>31</h3></div>
+   <div class="face back"><h3>0.52</h3></div>
+ </div>
+</div>
+
+<div class="container nr32">
+ <div class="card">
+   <div class="face front"><h3>32</h3></div>
+   <div class="face back"><h3>0.53</h3></div>
+ </div>
+</div>
+
+<div class="container nr33">
+ <div class="card">
+   <div class="face front"><h3>33</h3></div>
+   <div class="face back"><h3>0.55</h3></div>
+ </div>
+</div>
+
+<div class="container nr34">
+ <div class="card">
+   <div class="face front"><h3>34</h3></div>
+   <div class="face back"><h3>0.57</h3></div>
+ </div>
+</div>
+
+<div class="container nr35">
+ <div class="card">
+   <div class="face front"><h3>35</h3></div>
+   <div class="face back"><h3>0.58</h3></div>
+ </div>
+</div>
+
+<div class="container nr36">
+ <div class="card">
+   <div class="face front"><h3>36</h3></div>
+   <div class="face back"><h3>0.60</h3></div>
+ </div>
+</div>
+
+<div class="container nr37">
+ <div class="card">
+   <div class="face front"><h3>37</h3></div>
+   <div class="face back"><h3>0.62</h3></div>
+ </div>
+</div>
+
+<div class="container nr38">
+ <div class="card">
+   <div class="face front"><h3>38</h3></div>
+   <div class="face back"><h3>0.63</h3></div>
+ </div>
+</div>
+
+<div class="container nr39">
+ <div class="card">
+   <div class="face front"><h3>39</h3></div>
+   <div class="face back"><h3>0.65</h3></div>
+ </div>
+</div>
+
+<div class="container nr40">
+ <div class="card">
+   <div class="face front"><h3>40</h3></div>
+   <div class="face back"><h3>0.67</h3></div>
+ </div>
+</div>
+
+<div class="container nr41">
+ <div class="card">
+   <div class="face front"><h3>41</h3></div>
+   <div class="face back"><h3>0.68</h3></div>
+ </div>
+</div>
+
+<div class="container nr42">
+ <div class="card">
+   <div class="face front"><h3>42</h3></div>
+   <div class="face back"><h3>0.70</h3></div>
+ </div>
+</div>
+
+<div class="container nr43">
+ <div class="card">
+   <div class="face front"><h3>43</h3></div>
+   <div class="face back"><h3>0.72</h3></div>
+ </div>
+</div>
+
+<div class="container nr44">
+ <div class="card">
+   <div class="face front"><h3>44</h3></div>
+   <div class="face back"><h3>0.73</h3></div>
+ </div>
+</div>
+
+<div class="container nr45">
+ <div class="card">
+   <div class="face front"><h3>45</h3></div>
+   <div class="face back"><h3>0.75</h3></div>
+ </div>
+</div>
+
+<div class="container nr46">
+ <div class="card">
+   <div class="face front"><h3>46</h3></div>
+   <div class="face back"><h3>0.77</h3></div>
+ </div>
+</div>
+
+<div class="container nr47">
+ <div class="card">
+   <div class="face front"><h3>47</h3></div>
+   <div class="face back"><h3>0.78</h3></div>
+ </div>
+</div>
+
+<div class="container nr48">
+ <div class="card">
+   <div class="face front"><h3>48</h3></div>
+   <div class="face back"><h3>0.80</h3></div>
+ </div>
+</div>
+
+<div class="container nr49">
+ <div class="card">
+   <div class="face front"><h3>49</h3></div>
+   <div class="face back"><h3>0.82</h3></div>
+ </div>
+</div>
+
+<div class="container nr50">
+ <div class="card">
+   <div class="face front"><h3>50</h3></div>
+   <div class="face back"><h3>0.83</h3></div>
+ </div>
+</div>
+
+<div class="container nr51">
+ <div class="card">
+   <div class="face front"><h3>51</h3></div>
+   <div class="face back"><h3>0.85</h3></div>
+ </div>
+</div>
+
+<div class="container nr52">
+ <div class="card">
+   <div class="face front"><h3>52</h3></div>
+   <div class="face back"><h3>0.87</h3></div>
+ </div>
+</div>
+
+<div class="container nr53">
+ <div class="card">
+   <div class="face front"><h3>53</h3></div>
+   <div class="face back"><h3>0.88</h3></div>
+ </div>
+</div>
+
+<div class="container nr54">
+ <div class="card">
+   <div class="face front"><h3>54</h3></div>
+   <div class="face back"><h3>0.90</h3></div>
+ </div>
+</div>
+
+<div class="container nr55">
+ <div class="card">
+   <div class="face front"><h3>55</h3></div>
+   <div class="face back"><h3>0.92</h3></div>
+ </div>
+</div>
+
+<div class="container nr56">
+ <div class="card">
+   <div class="face front"><h3>56</h3></div>
+   <div class="face back"><h3>0.93</h3></div>
+ </div>
+</div>
+
+<div class="container nr57">
+ <div class="card">
+   <div class="face front"><h3>57</h3></div>
+   <div class="face back"><h3>0.95</h3></div>
+ </div>
+</div>
+
+<div class="container nr58">
+ <div class="card">
+   <div class="face front"><h3>58</h3></div>
+   <div class="face back"><h3>0.97</h3></div>
+ </div>
+</div>
+
+<div class="container nr59">
+ <div class="card">
+   <div class="face front"><h3>59</h3></div>
+   <div class="face back"><h3>0.98</h3></div>
+ </div>
+</div>
+
+ </body>
+    </html>
+
+
+
